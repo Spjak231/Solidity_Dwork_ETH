@@ -16,6 +16,7 @@ contract Dework{
 
 
 
+
  function getNumberOfRegisteredFreelancers()public view returns(uint256){
     return freelancerProfiles.length;
  }
