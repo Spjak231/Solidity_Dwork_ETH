@@ -24,6 +24,40 @@
 						"type": "uint256"
 					}
 				],
+				"name": "employerIdToAddress",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isHiring",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"name": "freelancerProfiles",
 				"outputs": [
 					{
@@ -138,19 +172,19 @@
 	},
 	"sources": {
 		"contracts/Dework.sol": {
-			"keccak256": "0x2977f0d44160714b1fec89350a87f6d1ff8156137f2af17a2c5fa10efc11544e",
+			"keccak256": "0x4295903f6431d928cd43d44984cfa35d338a9c1d36cacdd4d5208bd22bd76491",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dadfa67d8ebe2d5bedf6146a0228368196c52bcddfc4c8d622b28e3d0660ddc0",
-				"dweb:/ipfs/QmbFgQ8Vp7ovhm2WhVj6hrCUzNejMSjWZ8KiUFLjFnCb41"
+				"bzz-raw://dbcfbd20b7d10aea4f07a340781075223176276b93a592e0ff263bde259cb7a6",
+				"dweb:/ipfs/QmePzruu67DNcUScfGxD4FWjmi6pB3CnySguqyfdQmtfnN"
 			]
 		},
 		"contracts/types/DeworkTypes.sol": {
-			"keccak256": "0x56d3ac56d3f0e8f17d0f6308c174d76af873edf3c2e5d01d5697f6ce89d9b43b",
+			"keccak256": "0x9e482cba091308424e4a0e29ff235b4460f50fae4ab9b618871c97d5a5d16587",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4d9caedf33dccfe08f9521e0f6c66131a317215dce998ed7874460be8a8ee93b",
-				"dweb:/ipfs/QmUkpkmwwAD7iBTQVh26J61i4z3yZqjVtur84hjS63HZhZ"
+				"bzz-raw://898ef499c34e9111348c3d3db0a08d6be495645c4b8dd4b2de6ad837a83abfcc",
+				"dweb:/ipfs/QmfUL8UGghuRzyYfdVgGiQQswPvryw7t8ynPiCtTkamsAe"
 			]
 		}
 	},
